@@ -1,0 +1,12 @@
+var config = {};
+
+config.stripePublic = "";
+config.stripePrivate = "";
+config.endpointSecret = "";
+
+config.successURL = "http://localhost:3000/payment/success/";
+config.cancelURL = "http://localhost:3000/payment/cancel/";
+
+config.paymentDB = "files/payments.db";
+
+module.exports = config;

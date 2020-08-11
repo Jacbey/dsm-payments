@@ -1,0 +1,28 @@
+{
+  "name": "dsm-payments",
+  "version": "1.0.0",
+  "description": "Node package for taking payments through dsm",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jacbey/dsm-payments.git"
+  },
+  "author": "Jaz Marshall-Porter",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jacbey/dsm-payments/issues"
+  },
+  "homepage": "https://github.com/Jacbey/dsm-payments#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "express": "^4.17.1",
+    "sqlite": "^4.0.14",
+    "sqlite3": "^5.0.0",
+    "stripe": "^8.84.0"
+  }
+}
